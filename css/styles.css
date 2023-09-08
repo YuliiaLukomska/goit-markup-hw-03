@@ -32,7 +32,7 @@ h6 {
 }
 /* Header */
 
-.logo {
+.logo-header {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -41,7 +41,7 @@ h6 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo-accent {
+.logo-header-accent {
   color: #2e2f42;
 }
 .nav-link {
@@ -191,6 +191,7 @@ h6 {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-text {
@@ -198,6 +199,18 @@ h6 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
+}
+.logo-footer {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .logo-footer-accent {
   color: #f4f4fd;
