@@ -9,11 +9,27 @@ a {
 
 ul {
   list-style-type: none;
-margin: 0;
-padding: 0;}
+  margin: 0;
+  padding: 0;
+}
 
-p, h1, h2, h3, h4, h5, h6 {margin: 0;}
-
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.section {
+  padding: 120px 0;
+}
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 /* Header */
 
 .logo {
@@ -62,6 +78,7 @@ p, h1, h2, h3, h4, h5, h6 {margin: 0;}
 
 .first-section {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .first-section-header {
   color: #ffffff;
@@ -70,9 +87,8 @@ p, h1, h2, h3, h4, h5, h6 {margin: 0;}
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding: 188px 472px 292px;
-  margin-bottom: 48px;
   max-width: 496px;
+  margin: 0 auto 48px;
 }
 .first-section-header-accent {
   text-transform: none;
@@ -89,7 +105,11 @@ p, h1, h2, h3, h4, h5, h6 {margin: 0;}
   cursor: pointer;
   padding: 16px 32px;
   border-radius: 4px;
-  margin: 356px 635px 188px;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 .button:hover,
 .button:focus {
@@ -115,6 +135,7 @@ p, h1, h2, h3, h4, h5, h6 {margin: 0;}
 
 .third-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .third-section-header {
   color: #2e2f42;
