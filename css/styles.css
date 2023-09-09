@@ -31,7 +31,17 @@ h6 {
   padding: 0 15px;
 }
 /* Header */
-
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 76px;
+  flex-grow: 1;
+}
 .logo-header {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
@@ -44,12 +54,18 @@ h6 {
 .logo-header-accent {
   color: #2e2f42;
 }
+.nav-menu {
+  display: flex;
+  gap: 40px;
+}
 .nav-link {
+  display: inline-block;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -59,7 +75,10 @@ h6 {
 .address {
   font-style: normal;
 }
-
+.address-list {
+  display: flex;
+  gap: 40px;
+}
 .address-link {
   color: #434455;
   font-size: 16px;
