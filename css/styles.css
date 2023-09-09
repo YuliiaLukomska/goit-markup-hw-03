@@ -31,16 +31,18 @@ h6 {
   padding: 0 15px;
 }
 /* Header */
+.header {
+  border: 1px solid #e7e9fc;
+}
 .header-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 332px;
 }
 .header-nav {
   display: flex;
   align-items: center;
-  gap: 76px;
-  flex-grow: 1;
 }
 .logo-header {
   color: #4d5ae5;
@@ -50,6 +52,7 @@ h6 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo-header-accent {
   color: #2e2f42;
@@ -57,8 +60,6 @@ h6 {
 .nav-menu {
   display: flex;
   gap: 40px;
-  flex-grow: 1;
-  justify-content: flex-start;
 }
 .nav-link {
   display: inline-block;
@@ -138,13 +139,36 @@ h6 {
 }
 
 /* Second-section */
-
+.second-section-header {
+  margin-bottom: 8px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.second-section-flex-cont {
+  display: flex;
+  gap: 24px;
+}
+.second-section-list {
+  flex-basis: calc((100% - 72px) / 4);
+}
 .second-section-list-header {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  align-items: center;
 }
 .second-section-text {
   font-size: 16px;
@@ -153,7 +177,10 @@ h6 {
 }
 
 /* Third-section */
-
+.third-section-flex-cont {
+  display: flex;
+  gap: 24px;
+}
 .third-section {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -166,6 +193,7 @@ h6 {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .third-section-list-header {
   color: #2e2f42;
@@ -174,6 +202,7 @@ h6 {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .third-section-text {
   text-align: center;
@@ -181,11 +210,16 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* Fourth-setion */
-
 .third-section-list {
   background-color: #ffffff;
+  flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
+.third-section-card {
+  padding: 32px 0;
+}
+
+/* Fourth-setion */
 
 .fourth-section-header {
   color: #2e2f42;
